@@ -157,6 +157,8 @@ em { color: #d4a64d; font-style: normal; }
 .names { display: flex; gap: 45px; margin-top: 30px; padding-top: 23px; border-top: 1px solid var(--line); }
 .names small { display: block; color: var(--muted); font-size: 9px; }
 .names strong { display: block; margin-top: 7px; font: 700 16px var(--serif); letter-spacing: .1em; }
+.office-contact { margin-left: auto; padding-left: 30px; border-left: 1px solid var(--line); }
+.office-contact a { display: block; margin-top: 7px; color: var(--wine); font: 700 16px var(--serif); letter-spacing: .05em; }
 footer { padding: 52px max(4vw,25px); display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; color: #d5d9dc; background: #041421; font-size: 10px; }
 .footer-brand { color: #fff; font: 700 14px var(--serif); }
 .footer-brand span { color: #d4a64d; }
@@ -202,7 +204,8 @@ dialog p { font-size: 13px; line-height: 2; }
   .support { padding: 80px 20px; }
   .support-options { grid-template-columns: 1fr; }
   .committee { padding: 80px 24px; display: block; }
-  .names { gap: 25px; }
+  .names { gap: 25px; flex-wrap: wrap; }
+  .office-contact { width: 100%; margin-left: 0; padding: 18px 0 0; border-top: 1px solid var(--line); border-left: 0; }
   footer { display: block; text-align: center; line-height: 2.5; }
   .footer-brand { margin-bottom: 8px; }
 }
