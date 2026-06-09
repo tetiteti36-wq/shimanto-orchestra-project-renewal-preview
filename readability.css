@@ -1,1 +1,27 @@
-/* The main stylesheet contains the complete visual system. */
+/* Larger supporting copy for comfortable reading. */
+.site-nav { font-size: 14px; }
+.brand small, .eyebrow, .section-kicker { font-size: 12px; }
+.hero-lead { font-size: 17px; }
+.button { font-size: 14px; }
+.text-link { font-size: 13px; }
+.concept-copy > p:last-child, .section-heading > p,
+.quote-section p, .support-heading > p:last-child,
+.committee-message > p { font-size: 16px; }
+.concept-points li { font-size: 17px; }
+.project-type { font-size: 11px; }
+.project-info dt { font-size: 13px; }
+.project-info dd { font-size: 15px; }
+.project-description { font-size: 15px; }
+.main-event-credits dt, .main-event-credits dd { font-size: 13px; }
+.ticket-contact span, .support-card small, .names small { font-size: 12px; }
+.ticket-contact strong { font-size: 16px; }
+.support-card strong { font-size: 19px; }
+.support-note { font-size: 12px; }
+.names strong, .office-contact a { font-size: 18px; }
+footer { font-size: 12px; }
+
+@media (max-width: 800px) {
+  .hero-lead { font-size: 15px; }
+  .project-info dd, .project-description { font-size: 16px; }
+  .main-event-credits dt, .main-event-credits dd { font-size: 14px; }
+}
